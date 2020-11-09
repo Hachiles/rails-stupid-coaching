@@ -1,17 +1,10 @@
 <div class="container">
 <h1>Stupid Coaching</h1>
-<div class="user-question"><p>
-<%= @answer %><br></p>
+<div class="user-question">
+<p><%= @answer %><br></p>
 <p class="author">-You</p></div>
-<div class="coach-answer"><strong><p>
-<% if @answer == 'I am going to work' %>
-<%= 'Great!' %>
-<% elsif @answer.include? "?" %>
-<%= 'Silly question, get dressed and go to work!' %>
-<% else %>
-<%= 'I don\'t care, get dressed and go to work!' %>
-<% end %></strong><br>
-</p>
+<div class="coach-answer">
+<strong><p><%= @coach_answer %></strong><br></p>
 <p class="author">-Your coach</p></div>
 <%= link_to "Ask a new question", '/ask' %>
 </div>
