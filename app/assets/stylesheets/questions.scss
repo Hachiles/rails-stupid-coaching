@@ -1,0 +1,33 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  padding-left: 24px;
+}
+
+.coach-answer {
+  background-color: lightyellow;
+  border-left: solid 3px lightgrey;
+  padding: 8px 16px;
+  margin-bottom: 32px;
+  font-size: 20px;
+}
+
+.user-question {
+  border-left: solid 3px lightgrey;
+  padding: 8px 16px;
+  margin-bottom: 32px;
+  font-size: 20px;
+}
+
+.author {
+  font-style: italic;
+}
+
+a {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
